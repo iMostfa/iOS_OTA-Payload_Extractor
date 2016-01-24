@@ -13,24 +13,40 @@ With iOS OTA-Payload Extractor you can unpack the iOS OTA Updates Payloads.
 The iOS_payloads binary file on /tool it's already built by me.
 You need to build the ota.c and pbzx.c on /src with makefile on /
 
-### Build
+## Build
 
-## For OS X
+### For OS X
 For build it you can use: 
 
 `make osx`
 	
 if you have a problem with the building of the file you can try to use:
 
-`make clean && make osx`
+`make osx-clean && make osx`
 
 
-### Use
+### For linux
+For build it you can use: 
+
+`make lin`
+
+if you have a problem with the building of the file you can try to use:
+
+`make linux-clean && make lin`
+
+
+
+
+
+
+## Use
 
 **To use my tool in place of "example" enter the full path of the file,
 like "/Users/$USER/Desktop/OTA/payload.000"**
 
 `./iOS_payload /example/payload.000 /example/payload.001 /example/payload.002`
-		
+
+You can find the executable "iOS_payload" on "/linux/tool/"	or on "/OS_X/tool/"
+	
 ## Info
-**In  a few days I'll make a porting to linux**
+**No Info**

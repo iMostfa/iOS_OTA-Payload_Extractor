@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/stat.h> // for mkdir
-
+#include <stdint.h> // uint32_t on linux
 
 #pragma pack(1)
 struct entry
